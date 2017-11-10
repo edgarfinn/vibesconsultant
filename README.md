@@ -1,6 +1,13 @@
 A multi-purpose platform with the vision of enhancing peoples' relationship with music
+Architecture overview:
+---
+
+There is an node server running with Express from the react-backend directory, for handling requests to the database and third party APIs
+
+Within that directory there is also a react-backend/client directory from which the React server is run
 
 ### Running Servers:
+
 From root ```vibesconsultant``` directory run:
 
 ##### Boot Express backend server:
