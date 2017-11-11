@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "DOTLED";
+  src: url("./fonts/DOTLED__.otf");
+}
+
+h1 {
+  color: pink;
+  font-family: DOTLED;
+  font-size: 120px;
+}

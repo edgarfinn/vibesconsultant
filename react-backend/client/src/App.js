@@ -14,7 +14,7 @@ componentDidMount() {
   render() {
     return (
       <div className="App">
-          <h1 className="App-title">Users</h1>
+          <h1 className="App-title">Vibes Consultant</h1>
           {this.state.users.map(user =>
             <div key={user.id}>{user.username}</div>
           )}
