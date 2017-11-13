@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -15,7 +14,7 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 3.5em;
 }
 
 .App-intro {
@@ -25,4 +24,28 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+/* Home Page */
+body {
+  background-color: #fff;
+}
+.section-hero {
+  font-family: monospace;
+  padding-top: 90px;
+  text-align: center;
+}
+.hero-header {
+  padding: 2em;
+  margin: 2em;
+  border: 3px solid #41e191;
+  border-radius: 13px;
+  box-shadow: 0 0 10px #41e191;
+  box-shadow:inset 0 0 10px #41e191;
+}
+
+.neon-font {
+  color: #41e191;
+  font-family: neon2;
+  font-size: 4rem;
+  text-shadow: 0 0 2px #41e191;
 }
