@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "DOTLED";
-  src: url("./fonts/DOTLED__.otf");
+  font-family: "neon2";
+  src: url("./fonts/neon2.ttf");
 }
 
-h1 {
+/*h1 {
   color: pink;
   font-family: DOTLED;
   font-size: 120px;
-}
+}*/

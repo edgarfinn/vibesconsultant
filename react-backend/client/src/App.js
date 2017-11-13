@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './Reset.css'
 
 class App extends Component {
   state = {users: []}
@@ -14,10 +15,15 @@ componentDidMount() {
   render() {
     return (
       <div className="App">
-          <h1 className="App-title">Vibes Consultant</h1>
-          {this.state.users.map(user =>
+        <section className="section-hero">
+          <header className="hero-header large-8 large-centered">
+            <h1 className="neon-font">Vibes Consultant</h1>
+          </header>
+          <p>Full site coming soon</p>
+        </section>
+          {/* {this.state.users.map(user =>
             <div key={user.id}>{user.username}</div>
-          )}
+          )} */}
       </div>
     );
   }
