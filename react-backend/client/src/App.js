@@ -19,7 +19,7 @@ componentDidMount() {
           <header className="hero-header large-8 large-centered">
             <h1 className="neon-font">Vibes Consultant</h1>
           </header>
-          <p>Full site coming soon</p>
+          <p className="hero-description">Full site coming soon</p>
         </section>
           {/* {this.state.users.map(user =>
             <div key={user.id}>{user.username}</div>
