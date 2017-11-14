@@ -16,14 +16,14 @@ componentDidMount() {
     return (
       <div className="App">
         <section className="section-hero">
-          <header className="hero-header large-8 large-centered">
+          <header className="hero-header large-8 large-centered small-9 small-centered">
             <h1 className="neon-font">Vibes Consultant</h1>
           </header>
           <p className="hero-description">Full site coming soon</p>
         </section>
-          {/* {this.state.users.map(user =>
+          {this.state.users.map(user =>
             <div key={user.id}>{user.username}</div>
-          )} */}
+          )}
       </div>
     );
   }
